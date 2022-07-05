@@ -343,6 +343,16 @@ template {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #121417;
   font-family: 'Overpass', sans-serif;
   font-size: 0.938rem;
@@ -353,5 +363,43 @@ body {
   body {
     background-color: #fb7413;
   }
+}
+
+body .main {
+  width: 87vw;
+  height: 50vh;
+  background-color: #252d37;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #252d37), to(#121417));
+  background-image: linear-gradient(to bottom, #252d37 5%, #121417);
+  border-radius: 1rem;
+  border: 2px solid red;
+}
+
+body .main figure {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: #252d37;
+  background-image: url(../../images/icon-star.svg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body .main h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+body .main p {
+  color: #959eac;
+  margin: 0 0.8rem 0 1rem;
+  line-height: 1.5rem;
+}
+
+body .main .rank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=styles.css.map */
