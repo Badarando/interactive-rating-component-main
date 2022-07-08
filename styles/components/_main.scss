@@ -9,6 +9,15 @@ body {
     font-size: 0.938rem;
     color: $white;
 
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+
+            a { 
+                color: hsl(228, 45%, 44%); 
+            }
+    }
+
 
     @include breakpoint(small-up){
         background-color: $orange;
