@@ -368,6 +368,7 @@ body {
 body .main {
   width: 87vw;
   height: 50vh;
+  margin-top: 20vh;
   background-color: #252d37;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #252d37), to(#121417));
   background-image: linear-gradient(to bottom, #252d37 5%, #121417);
@@ -376,17 +377,19 @@ body .main {
 }
 
 body .main figure {
+  margin-left: .8rem;
   width: 2rem;
   height: 2rem;
   border-radius: 100%;
-  background-color: #252d37;
+  background-color: #2d3743;
   background-image: url(../../images/icon-star.svg);
-  background-size: 50%;
+  background-size: 38%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 body .main h1 {
+  margin-left: .8rem;
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -398,8 +401,63 @@ body .main p {
 }
 
 body .main .rank {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+body .main .rank .number {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  background-color: #252d37;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: .8rem;
+  color: #959eac;
+}
+
+body .main .rank .active {
+  background-color: #fb7413;
+}
+
+body .main .btn-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 87vw;
+  height: 8vh;
+  margin-top: 1rem;
+}
+
+body .main .btn-area .btn {
+  width: 80vw;
+  height: 7vh;
+  border: none;
+  border-radius: 10rem;
+  margin: 0 auto 0 auto;
+  background-color: #fb7413;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
