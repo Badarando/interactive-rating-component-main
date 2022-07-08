@@ -67,10 +67,16 @@ body {
 
                         font-size: .8rem;
                         color: $light-grey;
+
+                        &:hover {
+                            background-color: $light-grey;
+                            color: $white;
+                        }
                     }
 
                   .active {
                         background-color: $orange;
+                        color: $white;
                     }
             }
  
@@ -98,6 +104,11 @@ body {
                         font-weight: 400;
                         text-transform: uppercase;
                         color: $white;
+
+                        &:active {
+                            background-color: $white;
+                            color: $orange;
+                        }
                     
                     }
     

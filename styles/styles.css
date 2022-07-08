@@ -429,8 +429,14 @@ body .main .rank .number {
   color: #959eac;
 }
 
+body .main .rank .number:hover {
+  background-color: #959eac;
+  color: white;
+}
+
 body .main .rank .active {
   background-color: #fb7413;
+  color: white;
 }
 
 body .main .btn-area {
@@ -459,5 +465,10 @@ body .main .btn-area .btn {
   font-weight: 400;
   text-transform: uppercase;
   color: white;
+}
+
+body .main .btn-area .btn:active {
+  background-color: white;
+  color: #fb7413;
 }
 /*# sourceMappingURL=styles.css.map */
