@@ -1,0 +1,27 @@
+
+header{
+    width: 87vw;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 2rem;
+
+        img{
+            width: 50%;
+        }
+
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.message {
+    text-align: center;
+    font-size: .8rem;
+}
