@@ -2,6 +2,27 @@ function redirecionar() {
     window.location.href = './confirmation.html'
 }
 
+const numbers = document.querySelectorAll('.number')
+
+let currentActive = 0
+
+function active() {
+    currentActive++
+
+    if(currentActive > numbers.length) {
+        currentActive = numbers.length
+    }
+
+    update()
+}
+
+function update() {
+    numbers.forEach((number, idx) => {
+        if(idx == currentActive) {
+            number.classList.toggle('ativar')
+        } 
+    })
+}
 // const teste = document.querySelectorAll('.number');
 
 // function active(index, array) {

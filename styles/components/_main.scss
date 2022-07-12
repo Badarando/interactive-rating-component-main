@@ -26,9 +26,9 @@ body {
 
     .main {
         width:20rem;
-        height: 19.5rem;
+        height: 21rem;
 
-        margin-top: 20vh;
+        margin-top: 9rem;
 
         background-color: $dark-blue;
         background-image: linear-gradient(to bottom, $dark-blue 5%, $very-dark-blue);
@@ -84,7 +84,7 @@ body {
                         }
                     }
 
-                  .active {
+                  .ativar {
                         background-color: $orange;
                         color: $white;
                     }

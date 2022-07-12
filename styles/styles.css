@@ -376,8 +376,8 @@ body .attribution a {
 
 body .main {
   width: 20rem;
-  height: 19.5rem;
-  margin-top: 20vh;
+  height: 21rem;
+  margin-top: 9rem;
   background-color: #252d37;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #252d37), to(#121417));
   background-image: linear-gradient(to bottom, #252d37 5%, #121417);
@@ -444,7 +444,7 @@ body .main .rank .number:hover {
   color: white;
 }
 
-body .main .rank .active {
+body .main .rank .ativar {
   background-color: #fb7413;
   color: white;
 }
@@ -483,8 +483,8 @@ body .main .btn-area .btn:active {
 }
 
 header {
-  width: 87vw;
-  height: 15vh;
+  width: 20rem;
+  height: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,14 +502,27 @@ header {
 
 header img {
   width: 50%;
+  margin-bottom: 1.5rem;
+}
+
+header .rating {
+  width: 9.5rem;
+  height: 1.5rem;
+  padding-top: .2rem;
+  text-align: center;
+  color: #fb7413 !important;
+  background-color: #252d37;
+  border-radius: .8rem;
 }
 
 h2 {
   text-align: center;
   font-weight: 400;
+  margin-bottom: .6rem;
 }
 
 .message {
+  margin-top: 0px;
   text-align: center;
   font-size: .8rem;
 }
