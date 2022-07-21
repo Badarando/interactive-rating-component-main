@@ -82,12 +82,13 @@ body {
                             background-color: $light-grey;
                             color: $white;
                         }
+           
                     }
 
-                  .ativar {
-                        background-color: $orange;
-                        color: $white;
-                    }
+                    .active {
+                            background-color: $orange;
+                            color: $white;
+                        }
             }
  
             .btn-area {

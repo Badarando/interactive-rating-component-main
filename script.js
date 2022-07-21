@@ -2,27 +2,42 @@ function redirecionar() {
     window.location.href = './confirmation.html'
 }
 
-const numbers = document.querySelectorAll('.number')
+const rank = document.querySelector('div.number.three');
 
-let currentActive = 0
+rank.addEventListener("click", () => {
+    rank.classList.toggle('active');
+})
 
-function active() {
-    currentActive++
+// function activeOne() {
+//     const numbers = document.querySelector('number1')
+//     numbers.classList.add('active')
+// }
 
-    if(currentActive > numbers.length) {
-        currentActive = numbers.length
-    }
+// function activeTwo(){
+//     console.log('clicou no 2');
+// }
 
-    update()
-}
+// const numbers = document.querySelectorAll('.number')
 
-function update() {
-    numbers.forEach((number, idx) => {
-        if(idx == currentActive) {
-            number.classList.toggle('ativar')
-        } 
-    })
-}
+// let currentActive = 0
+
+// function active() {
+//     currentActive++
+
+//     if(currentActive > numbers.length) {
+//         currentActive = numbers.length
+//     }
+
+//     update()
+// }
+
+// function update() {
+//     numbers.forEach((number, idx) => {
+//         if(idx == currentActive) {
+//             number.classList.toggle('ativar')
+//         } 
+//     })
+// }
 // const teste = document.querySelectorAll('.number');
 
 // function active(index, array) {
